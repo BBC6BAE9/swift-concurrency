@@ -7,9 +7,7 @@
 
 import Foundation
 
-// 使用续体改写函数
-// 在异步函数被引入之前，处理和响应异步事件的主要方式是闭包回调和代理 (delegate) 方法。可能你的代码库里已经大量存在这样的处理方式了，如果你想要提供一套异步函数的接口，但在内部依然复用闭包回调或是代理方法的话，最方便的迁移方式就是捕获续体并暂停运行，然后在异步操作完成时告知这个续体结果，让异步函数从暂停点重新开始。
-// 把block使用Continuation修改成async的方式
+// Continution对付block的异步方式
 class Sample6 {
     
     func load(completion: @escaping ([String]?, Error?) -> Void) {
