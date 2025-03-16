@@ -25,16 +25,20 @@
 		F1B232F22D86859100EC8EB7 /* Exceptions for "SwiftConcurrency" folder in "SwiftConcurrencyTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				SwiftConcurrencyBasics/Sample1.swift,
-				SwiftConcurrencyBasics/Sample2.swift,
-				SwiftConcurrencyBasics/Sample3.swift,
-				SwiftConcurrencyBasics/Sample4.swift,
-				SwiftConcurrencyBasics/Sample5.swift,
-				SwiftConcurrencyBasics/Sample6.swift,
-				SwiftConcurrencyBasics/Sample7.swift,
-				SwiftConcurrencyBasics/Sample8.swift,
-				SwiftConcurrencyBasics/Sample9.swift,
-				SwiftConcurrencyBasics/Sample10.swift,
+				1_Basics/Sample1.swift,
+				1_Basics/Sample2.swift,
+				1_Basics/Sample3.swift,
+				1_Basics/Sample4.swift,
+				2_AsyncFounction/Sample5.swift,
+				2_AsyncFounction/Sample6.swift,
+				2_AsyncFounction/Sample7.swift,
+				2_AsyncFounction/Sample8.swift,
+				2_AsyncFounction/Sample9.swift,
+				4_AsyncSequence/Sample10.swift,
+				5_Usage/Network.swift,
+				5_Usage/Notification.swift,
+				5_Usage/TaskRelatedAPI.swift,
+				5_Usage/TestView.swift,
 			);
 			target = F15E7BA12D85E3350031B354 /* SwiftConcurrencyTests */;
 		};
