@@ -30,6 +30,7 @@ class Worker: WorkDelegate {
         continuation?.resume(returning: values)
         continuation = nil
     }
+    
     func workDidFailed(error: Error) {
         continuation?.resume(throwing: error)
         continuation = nil
